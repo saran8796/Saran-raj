@@ -1,0 +1,43 @@
+/* Custom style overrides */
+.mic-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.send-button {
+  background-color: #10b981;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.input-box {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+.user-message {
+  background-color: #dbeafe;
+  text-align: right;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  margin: 0.5rem 0 0.5rem auto;
+  width: fit-content;
+  max-width: 75%;
+}
+
+.bot-message {
+  background-color: #e5e7eb;
+  text-align: left;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  margin: 0.5rem auto 0.5rem 0;
+  width: fit-content;
+  max-width: 75%;
+}
